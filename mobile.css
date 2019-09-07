@@ -1,0 +1,25 @@
+/* .nav-bar{   
+    display: inline-block;
+} */
+body .nav-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+body .nav-wrapper h1{
+    margin:1rem;
+}
+body .nav-icons { 
+    display:grid;
+    grid-gap:10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    margin-bottom: 1rem;
+}
+body .ham-menu{
+    width:25px;
+    height:25px;
+    position: fixed;
+    top:35px;
+    right:35px;
+}
