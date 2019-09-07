@@ -20,6 +20,7 @@ textarea{
     font-size:1.2rem;
     padding:1rem;
     border-radius: 5px;
+    border:none;
 }
 #contact h1{
     text-align: center;
