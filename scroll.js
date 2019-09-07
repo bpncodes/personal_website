@@ -24,7 +24,7 @@ $(document).ready(function(){
 });
 // Sticky menu background
 window.addEventListener('scroll', function() {
-    if (window.scrollY > 580) {
+    if (window.scrollY > 640) {
         console.log('hi');
       document.querySelector('#nav-wrapper').style.background="grey";
       document.querySelector('#nav-wrapper').style.opacity = 0.5;
