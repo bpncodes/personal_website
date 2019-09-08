@@ -84,6 +84,7 @@
   .menu-wrap .toggler:checked ~ .menu {
     visibility: visible;
     transition: all 1s;
+    display: flex;
   }
   
   .menu-wrap .toggler:checked ~ .menu > div {
@@ -106,7 +107,7 @@
     height: 100%; */
     /* visibility: hidden; */
     overflow: hidden;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
   }
